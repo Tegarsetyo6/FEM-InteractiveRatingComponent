@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container grid flow">
+      <span><img src="images/icon-star.svg" alt="" class="star-icon" /></span>
+      <h2 class="text-white ff-sans" style="font-weight: 700; position: relative">How did we do?</h2>
+      <p class="text-grey ff-sans fs-400">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div class="number-box flex ff-sans">
+        <button class="number-button text-grey">1</button>
+        <button class="number-button text-grey">2</button>
+        <button class="number-button text-grey">3</button>
+        <button class="number-button text-grey">4</button>
+        <button class="number-button text-grey">5</button>
+      </div>
+
+      <button class="submit-button bg-orange ff-sans fw-700 text-white">Submit</button>
+    </div>
+
+    <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Tegar Setyo</a>.</div>
+  </body>
+</html>
